@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Cronometro-online" description="Site Para contagem">
+	<title id="titulo">Cronometro online</title>
+	</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/index2.js"></script>
+</head>
+<body id="pano" onload="verificaTema()">
+<nav class="bg-primary text-light">
+	<div class="container p-2 text-center">
+		<h2>Cronômetro</h2>
+	</div>
+	
+</nav>
+<div class="container">
+	<div class="center text-center">
+		<h1 id="tempo" class="p-5">
+			00: 00: 00
+		</h1>
+		<div onclick="iniciar()" class="btn btn-info">
+			Iniciar
+		</div>
+		<div onclick="parar()" class="btn btn-danger">
+			Parar
+		</div>
+		<div onclick="zerar()" class="btn btn-success">
+			Zerar
+		</div>
+		
+	</div>
+</div>
+</body>
+
+</html>
